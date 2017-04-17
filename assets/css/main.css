@@ -1,0 +1,47 @@
+body{
+  background-color: #000;
+  margin: 0px;
+}
+
+        p{
+          display: inline;
+          padding: 7px;
+          margin-top: 170px;
+        }
+        .inicio{
+          background-color: #d50000;
+          padding: 14px;
+          color: #fff;
+        }
+
+img{
+  display: inline;
+  width: 182px;
+  height: 182px;
+  border: 4.9px solid #ccc;
+  margin: 14px;
+  margin-left: 77px;
+}
+
+
+      .origen{
+        display: inline;
+        background-color: #d50000;
+        padding: 7px;
+        margin-left: 63px;
+        color: #fff;
+      }
+
+nav{
+  display: block;
+  margin: 56px;
+  padding: 7px;
+}
+.lorem01{
+  color: #FFE57F;
+  width: 461px;
+}
+.lorem02{
+  color: #FFE57F;
+  margin-left: 630px;
+}
