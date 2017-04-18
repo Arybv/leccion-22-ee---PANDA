@@ -1,47 +1,56 @@
 body{
   background-color: #000;
   margin: 0px;
+  font-size: 16.8px;
 }
-
-        p{
-          display: inline;
-          padding: 7px;
-          margin-top: 170px;
-        }
-        .inicio{
-          background-color: #d50000;
-          padding: 14px;
-          color: #fff;
-        }
-
+h4{
+  display: inline;
+  background-color: #d50000;
+  margin:14px;
+}
 img{
   display: inline;
-  width: 182px;
-  height: 182px;
+  width: 189px;
+  height: 189px;
   border: 4.9px solid #ccc;
   margin: 14px;
-  margin-left: 77px;
 }
-
-
-      .origen{
-        display: inline;
-        background-color: #d50000;
-        padding: 7px;
-        margin-left: 63px;
-        color: #fff;
-      }
-
+img:hover{
+-webkit: grayscale(0);
+}
+h3{
+  display: inline;
+  padding-left: 140px;
+  padding-right: 140px;
+  background-color: #d50000;
+}
 nav{
-  display: block;
-  margin: 56px;
+  margin-left: 49px;
+  margin-right: 49px;
+  padding: 7px;
+  column-gap: 7em;
+  columns: 2;
+  text-align: justify;
+  color: #FFE57F;
+}
+p{
+  display: inline;
   padding: 7px;
 }
-.lorem01{
-  color: #FFE57F;
-  width: 461px;
+.inicio{
+  padding: 7px;
+  color: #fff;
+  background-color: #d50000;
 }
-.lorem02{
-  color: #FFE57F;
-  margin-left: 630px;
+.inicio01{
+  margin-left: 70px;
+}
+.img01{
+  margin-left: 77px;
+}
+.origen{
+  display: inline;
+  padding: 7px;
+  margin-left: 70px;
+  color: #fff;
 }
