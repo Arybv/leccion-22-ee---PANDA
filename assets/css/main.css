@@ -1,12 +1,30 @@
 body{
-  background-color: #000;
+  background-color: #1d1007;
   margin: 0px;
   font-size: 16.8px;
 }
+/*Encabezado inicial*/
 h4{
   display: inline;
   background-color: #d50000;
   margin:14px;
+}
+h4:hover{
+  color: green;
+}
+.inicio{
+  display: inline-block;
+  width: 100%;
+  background-color: #d50000;
+  padding: 7px;
+  color: #fff;
+}
+.inicio01{
+  margin-left: 70px;
+}
+/*Diseño de imágenes*/
+div{
+  display: inline;
 }
 img{
   display: inline;
@@ -15,16 +33,36 @@ img{
   border: 4.9px solid #ccc;
   margin: 14px;
 }
-img:hover{
--webkit: grayscale(0);
+.img01{
+  margin-left: 70px;
 }
-h3{
+.cerrar{
+  position: relative;
+  color: #fff;
+  font-size: 24.5px;
+  left: -203px;
+  top: -175px;
+  cursor: pointer;
+}
+.cerrar:hover{
+  color: green;
+}
+/*Navegacion - origen*/
+#origen{
   display: inline;
+  margin-left: 70px;
+}
+.m{
   padding-left: 140px;
   padding-right: 140px;
   background-color: #d50000;
+  color: #fff;
 }
-nav{
+.m:hover{
+  color: green;
+}
+/*Texto Lorem*/
+.restaurar{
   margin-left: 49px;
   margin-right: 49px;
   padding: 7px;
@@ -37,20 +75,7 @@ p{
   display: inline;
   padding: 7px;
 }
-.inicio{
-  padding: 7px;
-  color: #fff;
-  background-color: #d50000;
-}
-.inicio01{
-  margin-left: 70px;
-}
-.img01{
-  margin-left: 77px;
-}
-.origen{
-  display: inline;
-  padding: 7px;
-  margin-left: 70px;
-  color: #fff;
+
+.ocultar{
+  visibility: hidden;
 }
